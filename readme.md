@@ -8,8 +8,22 @@
 # Dockerfile
 # .dockerignore (node-modules)
 
-# Crear Docker Image basado en alpine
+
+# For Testing
+    > we build de docker locally
+    > docker build -t sebastian/automatismo1:1.0 .
+    > run docker
+        > docker run -d -p 8080:8080 sebastian/automatismo1:1.0
+# Crear Carpeta
+    > .github/workflows
+    # Crear archivo 
+        > dockerpush.yml
+        # Pegar el contenido del proceso desde este link
+        (https://docs.github.com/en/actions/publishing-packages/publishing-docker-images)
+    
+
 # DockerHub - Enlazar y subir a dockerHub
+
 # Commitear
 # GitHub Actions
 # Variables de Entorno
